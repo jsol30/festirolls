@@ -130,6 +130,99 @@
                 </div>  
             </section>
         </article>
+        <div class="row justify-content-between">
+            <div class="col-lg-1"></div>
+            <!--card1-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>Dj Confiné</h4></div>
+                <div class="card-img-top"><img class="img-thumbnail" src="../image/dj-confine.jpg" 
+                    alt="Dj Confiné">
+                </div>
+                <div class="card body m-3"><p class="text-dark text-center">
+                    En attendant de se retrouver, nous vous proposons de découvrir ensemble, 
+                    des artistes à travers des lives set prévus sur la durée du confinement.</p>
+                </div>
+                <!--Déclaration du bouton 1er card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt1');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt1" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Date:</h5></dt>
+                                <dd><p>A partir du 22 mars 2020 au 14 mai 2020</p></dd>
+                                <dd><p>Tous les 2 jours</p></dd>
+                                <dt><h5>Heure:</h5></dt>
+                                <dd><p>De 18h00 à 20h00</p></dd>
+                                <dt><h5>Le lien du live:</h5></dt>
+                                <dd><a href="https://www.twitch.tv/festirolls?fbclid=IwAR2o4VZSBMjvUKLBYDTSk1fCgdxVYhXV3CAq3CeKC7YSxfIhpIgq-C1pmlI">
+                                    Lien du live</a>
+                                </dd>    
+                            </dl>
+                            <p>Afin de vous mettre au maximum dans les conditions de soirée, vous 
+                                pouvez également rejoindre le groupe Skype, pour discuter, et 
+                                profiter tous ensemble : Expérience unique !
+                            </p>
+                        </span>
+                    </div>
+                    <script type="text/javascript">
+                    function toggle_text(id) {
+                      var span = document.getElementById(id);
+                      if(span.style.display == "none") {
+                        span.style.display = "inline";
+                      } else {
+                        span.style.display = "none";
+                      }
+                    }
+                    </script>
+                </div>
+            </article>
+            <!--card2-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>Journée de plantations d'arbres</h4></div>
+                <div class="card-img-top"><img class="img-thumbnail" 
+                    src="../image/journée-plantation-arbre.jpg" alt="journée-plantation-arbre">
+                </div>
+                <div class="card body m-3">
+                    <p class="text-dark text-center">Le défi est lancé : 1300 Arbres à planter en 
+                        6 heures! Pour y arriver nous faisons appel à la mobilisation générale
+                        Alors si tu souhaites participer à l’événement inscris toi auprès de 
+                        l'association Festirolls sur facebook
+                    </p>
+                    
+                </div>
+                <!--Déclaration du bouton 2iem card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt2');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt2" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Date:</h5></dt>
+                                <dd><p>Le samedi 23 novembre 2019</p></dd>
+                                <dt><h5>Heure:</h5></dt>
+                                <dd><p>Deux créneaux de 3h dans la journée: de 9h à 12h, et de 
+                                    13h à 16h. Tu peux prévoir un pique-nique si tu comptes y passer 
+                                    la journée complète, on s'occupe de prévoir à boire pour tout le 
+                                    monde.</p>
+                                </dd>  
+                                <dt><h5>Lieux:</h5></dt>
+                                <dd><p>A Fontaine au Pire, le long du chemin créé entre le château 
+                                    d'eau et le boisement communal (pour partir vers Cattenières).</p>
+                                </dd>
+                            </dl>
+                            <p>C'est en partenariat avec la mairie de Fontaine-au-Pire, le LALP, le 
+                                Star Club de Fontaine, et l'US de Briastre que l'association 
+                                Festirolls s'engage dans ce challenge.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </article>
+            <div class="col-lg-1"></div>
+        </div>
 
     <script src="../bootstrap/jquery-3.6.0.min.js"></script>
     <script>$('#scrolltotop').click(function(){
