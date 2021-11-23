@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/festirolls1.css">
+    <link rel="stylesheet" href="../css/css-style-festirolls.css">
+    <title>Festirolls</title>
+</head>
+<body>
+    <!--debut fenetre modal contact -->
+    <div class="modal" id="testModal" tabindex="-1" role="dialog" >
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title text-center" >Nous contacter</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <div> Par mail : <a href="mailto:association-festirolls@gmail.com" >
+                        association-festirolls@gmail.com</a>
+                    </div>
+                    <br>
+                    <div>Par téléphone : <a href="tel:+33633333333">0633333333</a></div>
+                    <br>
+                    <div>Directement sur la page Facebook : 
+                        <a class="pl-3" target="_blank" 
+                        href="https://www.facebook.com/Festirolls">
+                        <svg class="" width="34" height="34"><use xlink:href="#facebook"/></svg></a> 
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                        Fermer
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--fin de modal contact-->
+    <div id="scrolltotop"><div></div></div>
+    <div class="container-fluid">
+        <!--menu de navigation d'entête-->
+        <header class="row">
+            <nav class=" col-12 navbar navbar-expand-lg bgNav border border-dark text-uppercase" 
+            id="mainNav">
+                <div class="container">
+                    <a href="festirolls1.html">
+                        <img class="logoNav rounded-circle " src="../image/logo.png" alt="Festirolls">
+                    </a>
+                    <h3 class="roulezJeunesse navbar-brand nomobile p-2">Roulez jeunesse !!</h3>
+                    <!--bouton burger menu--> 
+                    <button 
+                    class="navbar-toggler text-uppercase font-weight-bold bg-light text-dark rounded" 
+                    type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" 
+                    aria-controls="navbarResponsive" 
+                    aria-expanded="false" aria-label="Toggle navigation">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" 
+                        fill="currentColor" class="bi bi-list " viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                        </svg>
+                        <i class="fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse row justify-content-end" id="navbarResponsive">
+                        <ul class="navbar-nav ms-auto">
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="text-white nav-link py-3 px-0 px-lg-3 boutonNav" 
+                                href="festirolls1.html">Presentation</a>
+                            </li>
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <a class="text-white nav-link py-3 px-0 px-lg-3 boutonNav" 
+                                href="festirolls-envent1.html">Prochainement</a>
+                            </li>
+                            <li class="nav-item mx-0 mx-lg-1">
+                                <button type="button" data-toggle="modal" data-target="#testModal" 
+                                class="nav-link py-3 px-0 px-lg-3 btn text-white text-uppercase" >
+                                Contact
+                                </button>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    </div>
+    <main class="container-fluid no-gutters">
+        <!--Article de présentation de l'asosiation-->
+        <article class="mt-4">           
+            <section class="row justify-content-around py-4 article-presentation">
+                <!--Titre de l'article de présentation (c'est quoi festirolls)-->
+                <div class="col-12 text-center" ><h2 class="font-weight-bold ">
+                    C'est quoi Festirolls ?</h2><br>
+                </div>             
+                <!--Texte côté gauche de présentation-->
+                <div class="col-lg-6 p-lg-5 noborder-lg text-center m-auto ">
+                    <p>Festirolls est une association qui a vu le jours à Fontaine au pire en 2015. 
+                        Grâce a Pierre Besin, le président et ses amis pour l'assister, ont voulus 
+                        réunnir les jeunes du Cambrésis et du Valenciennois.
+                    </p>
+                    <p>Leurs but est d'organiser des multitudes d'activités festives tels que des 
+                        soirées à thème , des concerts , des sorties organisées qui vont regrouper 
+                        des jeunes d'une moyenne d'âge de 18 ans à 30 ans (approximativement).
+                    </p>
+                    <p>Commençant par des petites soirées de village avec l'accord et le soutien de 
+                        plusieurs mairies, regrouper les amis les plus proches pour ensuite se 
+                        développer d'année en année et organiser de plus gros évènements tels que 
+                        des festivals ou des soirées avec beaucoups plus de monde.
+                    </p>
+                </div>
+                <!--Texte côté droit de présentation-->
+                <div class="col-lg-6 p-lg-5 text-center m-auto">    
+                    <p> Soucieux et concient que l'ecologie est un réel problème à l'heure actuelle, 
+                        les membres de l'association ont pleinement profiter de se faire connaitre 
+                        de plus en plus dans le teritoire pour faire passer un message
+                    </p>
+                    <br>
+                    <p>en organisant des actions, tel que des matchs de foot 1 but = 1 arbre planté 
+                        en partenariat avec certains établisements qui doublent le nombre d'arbre 
+                        planté
+                    </p>
+                    <br>
+                    <p> Des journées de nettoyage des déchets dans la nature ont également été menées
+                        pour sensibiliser un maximum de personnes sur le fait de garder notre terre 
+                        la plus propre possible pour les futures générations
+                    </p>                       
+                </div>  
+            </section>
+        </article>
+        <div class="row justify-content-between">
+            <div class="col-lg-1"></div>
+            <!--card1-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>Dj Confiné</h4></div>
+                <div class="card-img-top"><img class="img-thumbnail" src="../image/dj-confine.jpg" 
+                    alt="Dj Confiné">
+                </div>
+                <div class="card body m-3"><p class="text-dark text-center">
+                    En attendant de se retrouver, nous vous proposons de découvrir ensemble, 
+                    des artistes à travers des lives set prévus sur la durée du confinement.</p>
+                </div>
+                <!--Déclaration du bouton 1er card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt1');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt1" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Date:</h5></dt>
+                                <dd><p>A partir du 22 mars 2020 au 14 mai 2020</p></dd>
+                                <dd><p>Tous les 2 jours</p></dd>
+                                <dt><h5>Heure:</h5></dt>
+                                <dd><p>De 18h00 à 20h00</p></dd>
+                                <dt><h5>Le lien du live:</h5></dt>
+                                <dd><a href="https://www.twitch.tv/festirolls?fbclid=IwAR2o4VZSBMjvUKLBYDTSk1fCgdxVYhXV3CAq3CeKC7YSxfIhpIgq-C1pmlI">
+                                    Lien du live</a>
+                                </dd>    
+                            </dl>
+                            <p>Afin de vous mettre au maximum dans les conditions de soirée, vous 
+                                pouvez également rejoindre le groupe Skype, pour discuter, et 
+                                profiter tous ensemble : Expérience unique !
+                            </p>
+                        </span>
+                    </div>
+                    <script type="text/javascript">
+                    function toggle_text(id) {
+                      var span = document.getElementById(id);
+                      if(span.style.display == "none") {
+                        span.style.display = "inline";
+                      } else {
+                        span.style.display = "none";
+                      }
+                    }
+                    </script>
+                </div>
+            </article>
+            <!--card2-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>Journée de plantations d'arbres</h4></div>
+                <div class="card-img-top"><img class="img-thumbnail" 
+                    src="../image/journée-plantation-arbre.jpg" alt="journée-plantation-arbre">
+                </div>
+                <div class="card body m-3">
+                    <p class="text-dark text-center">Le défi est lancé : 1300 Arbres à planter en 
+                        6 heures! Pour y arriver nous faisons appel à la mobilisation générale
+                        Alors si tu souhaites participer à l’événement inscris toi auprès de 
+                        l'association Festirolls sur facebook
+                    </p>
+                    
+                </div>
+                <!--Déclaration du bouton 2iem card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt2');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt2" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Date:</h5></dt>
+                                <dd><p>Le samedi 23 novembre 2019</p></dd>
+                                <dt><h5>Heure:</h5></dt>
+                                <dd><p>Deux créneaux de 3h dans la journée: de 9h à 12h, et de 
+                                    13h à 16h. Tu peux prévoir un pique-nique si tu comptes y passer 
+                                    la journée complète, on s'occupe de prévoir à boire pour tout le 
+                                    monde.</p>
+                                </dd>  
+                                <dt><h5>Lieux:</h5></dt>
+                                <dd><p>A Fontaine au Pire, le long du chemin créé entre le château 
+                                    d'eau et le boisement communal (pour partir vers Cattenières).</p>
+                                </dd>
+                            </dl>
+                            <p>C'est en partenariat avec la mairie de Fontaine-au-Pire, le LALP, le 
+                                Star Club de Fontaine, et l'US de Briastre que l'association 
+                                Festirolls s'engage dans ce challenge.
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </article>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-lg-1"></div>
+            <!--card3-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>Dj Confiné</h4></div>
+                <div class="card-img-top"><img class="img-thumbnail logo-festiroots" 
+                    src="../image/logo.festiroots1.jpg" alt="Festiroots">
+                </div>
+                <div class="card body m-3"><p class="text-dark text-center">
+                    Festival en plein air plusieurs scènes et pour tous les goûts : Hard Rock , 
+                    Rock'n'Roll , Ska punk , Reggae ,Techno , House , Hardstyle , Retro-Tech , 
+                    Tech-House. Camping gratuit</p>
+                </div>
+                <!--Déclaration du bouton 3iem card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt3');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt3" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Lieux:</h5></dt>
+                                <dd><p>Rue de Cambrai, 59191 Ligny-en-cambrésis, France</p></dd>
+                                <dt><h5>Date & Heure:</h5></dt>
+                                <dd><p>Du Vendredi 30 août de 19H00 au Dimanche 1 septembre 03h00</p></dd>
+                                <dt><h5>Tarif Pré-vente:</h5></dt>
+                                <dd><p>PASS 1 jour 10 euros / PASS 2 jour 15 euros</p></dd>
+                                <dt><h5>Tarif sur place:</h5></dt>
+                                <dd><p>Pass 1 jour 15 euros / PASS 2 jour 25 euros</p></dd>
+                                <dd><p>Camping gratuit, Buvette & restauration, Espace de détente 
+                                    avec jeux de sociétés géants</p>
+                                </dd>
+                            </dl>
+                        </span>
+                    </div>
+                </div>
+            </article>
+            <!--card4-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>Barathon 2.0</h4></div>
+                <div class="card-img-top"><img class="imgBarathon img-thumbnail" 
+                    src="../image/barathon.jpg" alt="Barathon2.0">
+                </div>
+                <div class="card body m-3"><p class="text-dark text-center">
+                    Tu n'étais pas présent pour la première édition du Barathon ?
+                    Alors Festirolls t'embringues le samedi 15 juin dans son bus impérial !</p>
+                </div>
+                <!--Déclaration du bouton 4iem card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt4');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt4" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Date:</h5></dt>
+                                <dd><p>Le samedi 15 Juin 2019</p></dd>
+                                <dt><h5>Heure:</h5></dt>
+                                <dd><p>Départ au Jubilé et au central pour un départ à 18h15</p></dd>
+                                <dd><p>Départ du café de l'amitié et du St Bernard à 19h15</p></dd>
+                                <dd><p>Arrivée au Red Café à 19h30</p></dd>
+                                <dd><p>Bar sur Cambrai dans l'ordre: Excentric - Poisson rouge - 
+                                    Distillerie</p>
+                                </dd>
+                                <dd><p>Tarifs préférentiels sur certaines boissons</p></dd>
+                                <dd><p>Inscription : 15 euros (une boisson comprise dans le bus)
+                                    30 euros ( 2 boissons + un polo Festirolls) </p></dd>
+                                <dt><h5>Manger c'est pas tricher !</h5></dt>
+                                <dd><p>Sandwich janmbon 2€ , Croque monsieur au Red Café à 1€50</p></dd>
+                            </dl>
+                            <p>
+                                Viens faire le carnage dans une sélection de bar du Cambrésis sans 
+                                avoir besoin de désigner un SAM (notre chauffeur vient te chercher 
+                                et te ramène).
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </article>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-lg-1"></div>
+            <!--card5-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>Fête de la St-Anne</h4></div>
+                <div class="card-img-top"><img class="img-thumbnail logo-festiroots" 
+                    src="../image/st-anne.jpg" alt="St-Anne">
+                </div>
+                <div class="card body m-3"><p class="text-dark text-center">
+                    C'est la fête de la Ste-Anne à Beauvois-en-cis ! Comme l'année dernière on s'y 
+                    retrouve pour un long week-end qui se clôturera mardi avec le carnaval.</p>
+                </div>
+                <!--Déclaration du bouton 5iem card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt5');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt5" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Date & Heure:</h5></dt>
+                                <dd><p>Rendez-vous à 20h à côté du Restaurant café rue Berthelot à 
+                                    Beauvois-en-cis !</p>
+                                </dd>
+                                <dt><h5>Line Up:</h5></dt>
+                                <dd><p>Jessy Pilard: Set rétro house<br>
+                                    Hugo Dhorne: Set généraliste- funk- futur house<br>
+                                    Carmelo Rodriguez: Set latino house<br>
+                                    Font & Félix Dhorne: Set tech-house</p>
+                                </dd>
+                            </dl>
+                            <p></p>
+                        </span>
+                    </div>
+                </div>
+            </article>
+            <!--card6-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>Bloody-night</h4></div>
+                <div class="card-img-top"><img class="imgBarathon img-thumbnail" 
+                    src="../image/bloody-night-1-edition.jpg" alt="Bloody-night"></div>
+                <div class="card body m-3"><p class="text-dark text-center">
+                    Venez fêter Halloween avec l'association Festirolls !</p>
+                </div>
+                <!--Déclaration du bouton 6iem card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt6');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt6" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Entrée: 5€</h5></dt>
+                                <dd><p>Le samedi 15 Juin 2019</p></dd>
+                                <dt><h5>Date & Heure:</h5></dt>
+                                <dd><p>Le 31 Octobre 2017 de 19H00 à 04H30</p></dd>
+                                <dt><h5>A la salle des fêtes de Fontaine-au-Pire</h5></dt>
+                                <dd><p>Entrée gartuite de 19H00 à 20H00</p></dd>
+                                <dd><p>Buvette & restauration sur place 1 
+                                    Déguisement = 1 Consommation offerte </p>
+                                </dd>
+                                <dd><p>19H00-21H00 : Concert de rock alternative</p></dd>
+                                <dd><p>22H00-02H00 : Dj'S</p></dd>
+                                <dd><p>Bar à bonbons - Blind test - Concours des meilleurs 
+                                    déguisements - Beer pong - Roue de la fortune 
+                                    (version halloween)</p>
+                                </dd>
+                            </dl>
+                        </span>
+                    </div>
+                </div>
+            </article>
+            <div class="col-lg-1"></div>
+        </div>
+        <div class="row justify-content-between">
+            <div class="col-lg-1"></div>
+            <!--card7-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>Festirolls At Home</h4></div>
+                <div class="card-img-top"><img class="img-thumbnail logo-festiroots" 
+                    src="../image/festirollsAtHome.jpg" alt="Festirolls-at-home"></div>
+                <div class="card body m-3"><p class="text-dark text-center">1 an et demi 
+                    après sa création à Fontaine-au-Pire, l'association Festirolls vous propose un 
+                    évènement à domicile ! Une Scène en plein air au terrain de football pour 7 
+                    heures de son House / Tech House / Rétro</p>
+                </div>
+                <!--Déclaration du bouton 7iem card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt7');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt7" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Date & Heure:</h5></dt>
+                                <dd><p>Rendez-vous le samedi 16 Septembre 2017 de 18h00 à 01h00<br>
+                                Au terrain de football de Fontaine-au-Pire</p></dd>
+                                <dt><h5>Line Up:</h5></dt>
+                                <dd><p>Francesco Marra, Felix Dhorne, Font, Mike, Hugo Dhorne, 
+                                    Hoff Man & HK</p>
+                                </dd>
+                                <dt><h5>Buvette & Restauration sur place</h5></dt>
+                            </dl>
+                            <p></p>
+                        </span>
+                    </div>
+                </div>
+            </article>
+            <!--card8-->
+            <article class="card text-white bg-secondary col-lg-4 py-4 my-4  ">
+                <div class="card-title text-center"><h4>New Year Party</h4></div>
+                <div class="card-img-top"><img class="imgBarathon img-thumbnail" 
+                    src="../image/newYearParty.jpg" alt="New-Year-Party"></div>
+                <div class="card body m-3"><p class="text-dark text-center">
+                    L’association Festirolls et son équipe te propose une soirée pour la nouvelle 
+                    année.<br>Viens passer une soirée inoubliable avec des surprises, alcool, 
+                    nourriture, une grosse ambiance, le tout compris pour 50€ !</p>
+                </div>
+                <!--Déclaration du bouton 8iem card-->
+                <div class="text-center">
+                    <button type="button" class="btn btn-light m-2 border border-dark" 
+                        onclick="toggle_text('span_txt8');">Plus d'info
+                    </button><br>
+                    <div class="">
+                        <span id="span_txt8" class="" style="display:none;">
+                            <dl class="">
+                                <dt><h5>Entrée: 50€</h5></dt>
+                                <dd><p>Alcool, nourriture, grosse ambiance compris</p></dd>
+                                <dt><h5>Date & Heure:</h5></dt>
+                                <dd><p>Le 31 Decembre 2016 de 21H00 à 06H00</p></dd>
+                                <dt><h5>A la salle des fêtes de Beauvois-en-cis</h5></dt>
+                            </dl>
+                            <p> </p>
+                        </span>
+                    </div>
+                </div>
+            </article>
+            <div class="col-lg-1"></div>
+        </div>
+    </main>
+    <!--Début footer-->
+    <svg xmlns="http://www.w3.org/2000/svg" style="display: none;"> 
+        <symbol id="facebook" viewBox="0 0 16 16">
+          <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
+        </symbol>
+      </svg>
+    <footer class="container-fluid mt-5">
+        <div class=" footer row text-white bg-secondary">
+            <div class="mt-5 col-3"><p class="sizeCopy">&copy; Festirolls 2021</p></div>
+            <div class="my-auto col-3 text-center"><button type="button" data-toggle="modal" 
+                data-target="#testModal" 
+                class="nav-link py-3 px-0 px-lg-3 btn text-white text-uppercase">
+                <p>Contact</p></button>
+            </div>
+            <div class=" my-auto col-6 text-center">  
+                <p class="fbFooter">Facebook  <a class="" href="https://www.facebook.com/Festirolls"
+                    target="_blank ">
+                  <svg class="" width="34" height="34"><use xlink:href="#facebook"/></svg></a>
+                </p>
+            </div>
+        </div>    
+    </footer>
+    <!--Fin footer-->
+<script src="../bootstrap/jquery-3.6.0.min.js"></script>
+<script>$('#scrolltotop').click(function(){
+$('html,body').animate({scrollTop: 0}, 'slow');
+});
+$(window).scroll(function(){
+if($(window).scrollTop()<500){
+    $('#scrolltotop').fadeOut();
+} else{
+    $('#scrolltotop').fadeIn();
+}
+});</script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+<script src="../bootstrap/bootstrap.bundle.min.js"></script>  
+</body>
+</html>
