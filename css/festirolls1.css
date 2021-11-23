@@ -1,0 +1,19 @@
+/*supression de la bordure dans la présentation sur petit ecran*/
+@media screen and (min-width: 992px) {
+    .noborder-lg {
+        border-right:solid 4px rgba(0, 0, 0, 0.438);    
+    }
+}
+
+.article-presentation{
+    background-image:linear-gradient(to right, rgba(252, 253, 253, 0.200),rgba(252, 253, 253, 0.700),rgba(236, 191, 94, 0.400),rgba(252, 253, 253, 0.700), rgba(252, 253, 253, 0.200))
+}
+.logo-festiroots {
+    width: 860px;
+}
+.imgBarathon {
+    width: 860px;
+    height: 450px;
+}
+
+
