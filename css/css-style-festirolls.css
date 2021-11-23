@@ -1,0 +1,47 @@
+               /*Nav*/
+               .roulezJeunesse {
+                font-family: Comic Sans MS, Comic Sans, cursive; 
+                color: whitesmoke;  
+            }
+            .bgNav {
+                /*background: #3CB371;*/
+                background: rgb(82, 88, 90);
+                opacity: 0.8;
+            }
+            .logoNav {
+                width: 100px; 
+            }
+            .boutonNav {
+                font-size: 18px;
+            }
+            /* Supr roulez jeunesse sur petit ecran*/
+            @media screen and (max-width: 480px) {
+                .nomobile {
+                    display: none;
+                }
+            }
+                            /*Body*/
+            body{
+              font-family: 'Roboto', sans-serif;
+              font-size: 24px;
+            }
+            
+            body{
+                background-image:linear-gradient(to bottom, rgba(69, 81, 90, 0.5),rgba(153, 110, 17, 0.349),
+                 rgba(32, 32, 97, 0.5))
+            }
+            
+            #scrolltotop{display:none;z-index:1000;position:fixed;bottom:5px;right:5px;cursor:pointer;width:30px;height:30px;background:#111111;}
+                #scrolltotop div{width:6px;height:6px;transform:rotate(-135deg);border:solid #ffffff;border-width:0 3px 3px 0;padding:3px;margin-top:16px;margin-left:12px;}
+            
+                           /*Footer*/
+            /* taille Copyright festirolls dans le footer*/
+            .sizeCopy{
+                font-size: 14px;
+            }
+            .footer{
+                height: 100px;
+            }
+            .fbFooter{
+                font-size: 24px;
+            }
