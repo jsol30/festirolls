@@ -37,11 +37,14 @@
                            /*Footer*/
             /* taille Copyright festirolls dans le footer*/
             .sizeCopy{
-                font-size: 14px;
+                font-size: 10px;
             }
             .footer{
                 height: 100px;
             }
             .fbFooter{
-                font-size: 24px;
+                font-size: 16px;
+            }
+            .contactFooter{
+                font-size: 16px;
             }
